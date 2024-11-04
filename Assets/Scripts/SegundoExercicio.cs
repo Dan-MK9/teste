@@ -17,6 +17,9 @@ public class SegundoExercicio : MonoBehaviour
         {
             print("Nenhum PowerUp encontrado");
         }
+
+        // condição ? caso verdade : caso falso
+        print((powerUp == false ? "PowerUp Coletado" : "Nenhum PowerUp encontrado"));
     }
 
     void Update()
