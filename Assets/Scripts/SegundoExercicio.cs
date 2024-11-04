@@ -1,14 +1,24 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class SegundoExercicio : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //    2. (Detecção de power-up) Ao coletar um power-up, o
+    //personagem aumenta sua velocidade.Se o jogador encontrar um
+    //power-up, exiba "Power-up Coletado". Caso contrário, exiba
+    //"Nenhum power-up encontrado".
+
+    [SerializeField] bool powerUp;
     void Start()
     {
-        
+        if (powerUp == false)
+        {
+            print("PowerUp coletado");
+        }else
+        {
+            print("Nenhum PowerUp encontrado");
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
