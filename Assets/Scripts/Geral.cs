@@ -2,28 +2,53 @@ using UnityEngine;
 
 public class Geral : MonoBehaviour
 {
+    public string variavelPublica;
 
-    int vidaJogador = 10;
+    //int vidaJogador = 10;
 
-    float velocidadeCarro = 125.5f;
+    //float velocidadeCarro = 125.5f;
 
-    string nomeJogador = "Michael Jackson";
+    //string nomeJogador = "Michael Jackson";
 
-    char apelido = 'M';
+    //char apelido = 'M';
 
-    bool vivo = true;
+    //bool vivo = true;
 
-    int vida_Joogador;
+    //int vida_Joogador;
+
+    /*
+     Operadores relacionais:
+
+        == (igual)
+        != (diferente)
+        > (maior que)
+        < (menor que)
+        <= (menor igual)
+        >= (maior igual)
 
 
+     Operadores logicos:
+
+        
+     */
+
+    [SerializeField] int vidaHeroi;
+    int variavelGlobal;
 
     void Start()
     {
-        Debug.Log(vidaJogador);
+        //Debug.Log(vidaJogador);
 
-        print(velocidadeCarro);
+        //print(velocidadeCarro);
 
-        print(vivo);
+        //print(vivo);
+
+        //int variavelLocal = 10;
+        //print(variavelLocal);
+
+        //print(variavelGlobal);
+
+
     }
 
     // Update is called once per frame
