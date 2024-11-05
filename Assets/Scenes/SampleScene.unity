@@ -1231,6 +1231,10 @@ GameObject:
   - component: {fileID: 561200185}
   - component: {fileID: 561200186}
   - component: {fileID: 561200187}
+  - component: {fileID: 561200188}
+  - component: {fileID: 561200189}
+  - component: {fileID: 561200190}
+  - component: {fileID: 561200191}
   m_Layer: 0
   m_Name: Idle (32x32)_0
   m_TagString: Untagged
@@ -1427,9 +1431,63 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561200179}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f5c207580e107c48ac4231261698905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 0
+  vida: 100
+  vidaAtual: 100
+--- !u!114 &561200188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561200179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84f1c58478d10b4ea3c1e2676a3ee74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemInventario: 3
+--- !u!114 &561200189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561200179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb9995c4ff764b46bd3e1a4af749958, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontos: 51
+--- !u!114 &561200190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561200179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbaf99def60c9ae4b81edf0a5a65ea03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personagem: 0
+--- !u!114 &561200191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561200179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcd25d3c8ba814197f3ecb98699ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &617378621
