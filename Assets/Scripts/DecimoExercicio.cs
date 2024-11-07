@@ -1,9 +1,12 @@
-using System.Diagnostics;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 using UnityEngine;
 using static UnityEditor.Progress;
 
-public class DecimoExercicio : MonoBehaviour
+public class Exercicio10 : MonoBehaviour
 {
+
     //10. (Itens do inventário) Crie um script onde o jogador pode coletar
     //diferentes tipos de itens(como moedas, poções, ou power-ups)
     //que têm efeitos diferentes dependendo do tipo coletado.Use um
@@ -12,13 +15,15 @@ public class DecimoExercicio : MonoBehaviour
     [SerializeField] string tipoItem;
     [SerializeField] int moeda = 10;
     [SerializeField] bool escudo = false;
-    [SerializeField] bool pocao = false;
+    [SerializeField] bool pocaoVida = false;
+
     void Start()
     {
         switch (tipoItem)
         {
             case "Moeda":
-                print("Moeda coletada" + moeda);
+                moeda++;
+                print("Moeda Coletada" + moeda);
                 break;
 
             case "Escudo":
@@ -27,14 +32,18 @@ public class DecimoExercicio : MonoBehaviour
                 break;
 
             case "Poção":
-                pocao = true;
-                print("Poção de vida coletada");
+                pocaoVida = true;
+                print("Poção de Vida Coletada");
+                break;
+
+            default:
+                Debug.Log("Item desconhecido!");
                 break;
         }
     }
 
     void Update()
     {
-        
+
     }
 }
