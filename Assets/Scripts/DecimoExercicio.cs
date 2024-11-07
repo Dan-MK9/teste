@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using UnityEngine;
 using static UnityEditor.Progress;
 
-public class Exercicio10 : MonoBehaviour
+public class DecimoExercicio : MonoBehaviour
 {
 
     //10. (Itens do inventário) Crie um script onde o jogador pode coletar
@@ -44,6 +44,6 @@ public class Exercicio10 : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 }
