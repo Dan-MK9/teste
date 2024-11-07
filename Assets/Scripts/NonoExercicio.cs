@@ -15,7 +15,25 @@ public class NonoExercicio : MonoBehaviour
     [SerializeField] int timeB = 2;
     void Start()
     {
-    
+        if (timeA > timeB)
+        {
+            print("Vitória do time A");
+        }
+        else if (timeA < timeB)
+        {
+            print("Vitória do time B");
+        }
+        else
+        {
+            if (timeA > 3 && timeB > 3)
+            {
+                print("Foi um empate emocionante!");
+            }
+            else
+            {
+                print("Empate");
+            }
+        }
     }
 
     void Update()

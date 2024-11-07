@@ -21,7 +21,7 @@ public class OitavoExercicio : MonoBehaviour
     void Update()
     {
         segundos++;
-        if (segundos % 60 == 0)
+        if (segundos % 1000 == 0)
         {
             segundos = 0;
             hora++;
