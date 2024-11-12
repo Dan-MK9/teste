@@ -8,7 +8,7 @@ public class Exercicio3 : MonoBehaviour
     [SerializeField] int moeda = 0;
     void Start()
     {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 9; i++) {
             moeda += 3;
             print($"Moeda coletadas {moeda}");
         }

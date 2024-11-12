@@ -930,6 +930,7 @@ GameObject:
   - component: {fileID: 1244216444}
   - component: {fileID: 1244216445}
   - component: {fileID: 1244216446}
+  - component: {fileID: 1244216447}
   m_Layer: 0
   m_Name: Idle (78x58)_0
   m_TagString: Untagged
@@ -1140,13 +1141,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244216437}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dda3d4a17ed9b4d4b8104a5fee1c8b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fase: 0
   dificuldade: 0
+--- !u!114 &1244216447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244216437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb50cdbc36eaac47ab0f40a4e93c781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1416012213
 GameObject:
   m_ObjectHideFlags: 0
