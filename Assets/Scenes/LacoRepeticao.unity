@@ -931,6 +931,9 @@ GameObject:
   - component: {fileID: 1244216445}
   - component: {fileID: 1244216446}
   - component: {fileID: 1244216447}
+  - component: {fileID: 1244216448}
+  - component: {fileID: 1244216449}
+  - component: {fileID: 1244216450}
   m_Layer: 0
   m_Name: Idle (78x58)_0
   m_TagString: Untagged
@@ -1002,8 +1005,8 @@ Transform:
   m_GameObject: {fileID: 1244216437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.023415, y: 9.296818, z: -0.17076169}
-  m_LocalScale: {x: 11.5145, y: 11.5145, z: 11.5145}
+  m_LocalPosition: {x: -37.023415, y: 9.2414, z: -0.17076169}
+  m_LocalScale: {x: 11.5145, y: 11.650372, z: 11.5145}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2029916516}
@@ -1155,11 +1158,49 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244216437}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adb50cdbc36eaac47ab0f40a4e93c781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1244216448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244216437}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7921fcc5e92ddbe4aa1986ad468e01cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1244216449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244216437}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3b03e28ffcf3e45a519d1b86e7e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1244216450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244216437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b76c6480524e114cbc557ef0a192ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: Jogos Digitais
+  contadorConsoantes: 0
 --- !u!1 &1416012213
 GameObject:
   m_ObjectHideFlags: 0
